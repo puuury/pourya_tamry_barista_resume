@@ -4,7 +4,7 @@
         renderer: 'svg',
         loop: true, 
         autoplay: true,
-        path: '/lottie/Animation - 1732608899613.json',
+        path: '/lottie/a.json',
         
     });
     animation.setSpeed(3);
