@@ -1,0 +1,41 @@
+.middleWrapp
+{
+    position: relative;
+    width: 100%;
+    height: 75%;
+    border: 2px solid var(--gold);
+    border-radius: 1em;
+    margin-top: 0.5em;
+    overflow: hidden;
+    padding: 0.4em;
+}
+.bga
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.mainSide
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.mainSide .paragraph p 
+{
+    color: var(--font);
+    font-family: var(--fa);
+    font-size: 0.72em;
+    text-align: center;
+}
+.line
+{
+    width: 100%;
+    height: 1vh;
+    background: var(--gold);
+    border-radius: 1em;
+    margin-top: 0.3em ;
+    margin-bottom: 0.3em;
+}
