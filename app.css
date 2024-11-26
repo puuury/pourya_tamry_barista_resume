@@ -63,11 +63,8 @@ body{
 {
     width: 60%;
     height: 100%;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    padding: 4px;
     z-index: 2;
 }
 .infoBox .name
@@ -77,7 +74,6 @@ body{
     align-items: center;
     width: 100%;
     height: 50%;
-    border: 2px solid rgb(0, 255, 221);
 }
 .name .en 
 {
@@ -90,15 +86,23 @@ body{
 .name .fa
 {
     width: 37%;
+    text-align: end;
     color: var(--font);
     font-family: var(--fa);
-    font-size: 0.5em;
+    font-size: 0.4em;
     text-shadow: 1px 1px 25px var(--gold);
 
 }
 .infoBox .icon
 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 50%;
-    border: 2px solid red;
+}
+.icon img 
+{
+    color: var(--gold);
+    filter: drop-shadow(1px 1px 5px var(--gold))
 }
